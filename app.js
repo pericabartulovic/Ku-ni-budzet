@@ -1,5 +1,5 @@
 ////////////////////////////////////APLIKACIJA ZA KUĆNI BUDŽET /////////////////////////////////////
-                                ///[MODEL - VIEW - CONTROLLER] /// budući da app nije velika MVC u jednom fileu! ES5 uglavnom
+                                ///[MODEL - VIEW - CONTROLLER] ///
 //[MODEL]
 //BUDGET CONTROLLER
 var budgetController = (function () {
@@ -215,7 +215,7 @@ var UIController = (function () {
     };
 
 
-    var nodeListForEach = function (list, callback) {   //custom forEach funkcija za node liste uz pomoć first-class funkcije
+    var nodeListForEach = function (list, callback) {   //moja custom forEach funkcija za node liste uz pomoć first-class funkcije
         for (var i = 0; i < list.length; i++) {       // dio ponovo upotrebljivog koda za buduće node liste u aplikaciji
             callback(list[i], i);
         }
